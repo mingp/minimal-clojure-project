@@ -5,7 +5,7 @@
 (def render (renderer "minimal-clojure-project"))
 
 (defn minimal-clojure-project
-  "FIXME: write documentation"
+  "Leiningen template for minimal Clojure project."
   [name]
   (let [data {:name name
               :sanitized (name-to-path name)}]
