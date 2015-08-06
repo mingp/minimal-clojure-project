@@ -11,4 +11,7 @@
               :sanitized (name-to-path name)}]
     (main/info "Generating fresh 'lein new' minimal-clojure-project project.")
     (->files data
-             ["src/{{sanitized}}/foo.clj" (render "foo.clj" data)])))
+             ["README.markdown" (render "README.markdown" data)]
+             ["project.clj" (render "project.clj" data)]
+             ["main.clj" (render "main.clj" data)]
+             [".gitignore" (render "gitignore" data)])))
