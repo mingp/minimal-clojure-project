@@ -1,14 +1,18 @@
 # minimal-clojure-project
 
-A Leiningen template for FIXME.
+Leiningen template for a very minimal Clojure application.
 
-## Usage
+* Flat directory structure
+* Initially only a single source file (although you can add more)
 
-FIXME
+Example uses include:
 
-## License
+* Single-use ad-hoc scripts
+* Utility scripts
+* Programming puzzle/challenge solutions
 
-Copyright © 2015 FIXME
+# License
 
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+Copyright © 2015 Ming Pan.
+Distributed under the terms of the MIT License.
+For details, see the included LICENSE file.
