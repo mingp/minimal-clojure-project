@@ -2,8 +2,14 @@
 
 Leiningen template for a very minimal Clojure application.
 
+To use:
+
+```
+lein new minimal-clojure-project {new project name} --snapshot
+```
+
 * Flat directory structure
-* Initially only a single source file (although you can add more)
+* Initially only a single source file `main.clj` (but you can add more)
 
 Example uses include:
 
